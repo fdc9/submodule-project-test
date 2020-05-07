@@ -1,0 +1,4 @@
+[submodule "submodules/repo"]
+	path = submodules/repo
+	url = https://github.com/fdc9/master-project-test.git
+	branch = master
