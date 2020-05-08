@@ -1,17 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
-import { FirstListComponent } from './components/first-list/first-list.component';
+import { FirstHomeComponent } from './pages/first-home/first-home.component';
 
 export const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'first'
-  },
-  {
-    path: 'first',
-    component: FirstListComponent
+    component: FirstHomeComponent
   }
 ];
 
